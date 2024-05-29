@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img{
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+}
+
+.to-day,.day-3{
+    background-color:rgba(50, 53, 68) ;
+}
+.next-day{
+    background-color:#262936;
+}
+.day-name{
+border-bottom: solid transparent   1px;
+   
+}
+footer .btn{
+    top: 20%;
+    right: 2%;
+}
+
+
+footer .icon span{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #565967;
+    margin-right: .3rem;
+    color: #91cbe2;
+   
+}
+footer .icon span:hover{
+
+ background-color: white;
+ color: #1389b7;
+}
